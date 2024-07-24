@@ -43,11 +43,11 @@ class User {
         return $this->userName;
     }
 
-    public function getUserLastName(): string {
+    public function getUserLastName(): string|null {
         return $this->userLastName;
     }
 
-    public function getUserBirthday(): int {
+    public function getUserBirthday(): int|null {
         return $this->userBirthday;
     }
 

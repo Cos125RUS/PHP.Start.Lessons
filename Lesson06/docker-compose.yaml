@@ -56,7 +56,7 @@ services:
       MYSQL_PASSWORD: ${DB_PASSWORD} # пароль для пользователя
       MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD} # администраторский пароль
     ports:
-      - "3306:3306"
+      - "33306:3306"
     volumes:
         - ./db:/var/lib/mysql
     # мы можем создать для контейнеров внутреннюю сеть

@@ -1,1 +1,4 @@
-/Lesson03/vendor/
+**/vendor/
+**/.idea/
+**/*.lock
+**/db/
