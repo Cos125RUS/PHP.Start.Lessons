@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Listen for xdebug",
+      "type": "php",
+      "require": "launch",
+      "port": 9003,
+      "pathMapping": {
+        "/data/mysite.local": "${workspaceFolder}/code/"
+      }
+    },
+    {
+      "name": "Listen on Docker for xdebug",
+      "type": "php",
+      "require": "launch",
+      "port": 9003,
+      "pathMapping": {
+        "/data/mysite.local": "${workspaceFolder}/code/"
+      }
+    }
+  ]
+}
